@@ -1,0 +1,47 @@
+.slide {
+
+    display:flex;
+    justify-content: center;
+    padding: 100px 190px;
+
+    .container {
+       width: 100%;
+    }
+
+    .slick-slider.slick-initialized {
+        width: 100%;
+    }
+
+    .slick-arrow.slick-prev {
+        z-index: 1;
+        left: 1% !important;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 50%;
+
+        &::before {
+            color: black;
+            font-size: 30px;
+        }
+
+    }
+
+    .slick-arrow.slick-next {
+        right: 4% !important;
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 50%;
+        //position: absolute;
+        //top: 0px;
+
+        &::before {
+            color: black;
+            font-size: 30px;
+        }
+    }
+
+
+}

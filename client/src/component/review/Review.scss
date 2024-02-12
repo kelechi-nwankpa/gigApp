@@ -1,0 +1,61 @@
+.review {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+    .user {
+        display: flex;
+        align-items: center;
+
+        .pp_img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .country {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: grey;
+
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    }
+
+    .stars {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        img {
+            width: 14px;
+            height: 14px;
+        }
+
+        span {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+
+    .helpful{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img{
+            width: 14px;
+        }
+    }
+}
